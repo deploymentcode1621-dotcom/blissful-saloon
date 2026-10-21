@@ -41,6 +41,18 @@ export const getMapsEmbedSrc = () =>
     SITE_CONFIG.mapsQuery
   )}&t=&z=15&ie=UTF8&iwloc=&output=embed`;
 
+export const BOOKING_EVENT_TYPES = [
+  "Bridal Makeup",
+  "Engagement Makeup",
+  "Reception Makeup",
+  "Party Makeup",
+  "Haldi Makeup",
+  "Mehendi Makeup",
+  "Pre-Wedding Makeup",
+  "Other",
+];
+
+
 export const NAV_LINKS = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
